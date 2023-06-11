@@ -12,12 +12,6 @@
 #     shield: reviung41
 #
 ---
-on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-    
 include:
   - board: jorian840_left
   - board: jorian840_right
