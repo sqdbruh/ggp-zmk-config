@@ -15,3 +15,4 @@
 include:
   - board: jorian840_left
   - board: jorian840_right
+    shield: settings_reset
